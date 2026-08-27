@@ -145,7 +145,3 @@ Global model parameters live in `config/config.yaml`.
 ```
 
 ---
-
-## 🙏 Acknowledgements
-
-This project is based on [FusionDTI](https://arxiv.org/abs/2406.01651) (*Fine-grained Binding Discovery with Token-level Fusion for Drug-Target Interaction*, Findings of EMNLP 2025).
