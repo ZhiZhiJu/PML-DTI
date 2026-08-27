@@ -1,0 +1,17 @@
+# Mamba parameters
+mmmamba:
+  audio_input_size: 1280 # LDDs for D-Vlog
+  video_input_size: 960
+  mm_input_size: 256
+  mm_output_sizes: [256]
+  dropout: 0.1
+  d_ffn: 1024
+  num_layers: 3
+  activation: 'Swish'
+  causal: false
+
+  mamba_config:
+    d_state: 16
+    expand: 4
+    d_conv: 4
+    bidirectional: true

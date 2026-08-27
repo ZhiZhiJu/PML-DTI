@@ -1,0 +1,7 @@
+# BindingDB / cluster
+batch_size: 64
+num_heads: 1
+mm_output_sizes: [256]
+patience: 15
+seed: 1
+use_mask: true
