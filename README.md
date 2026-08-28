@@ -24,7 +24,6 @@ Create a conda environment and install the dependencies from `requirements.txt`:
 ```bash
 conda create -n pml_dti python=3.10
 conda activate pml_dti
-pip install -r requirements.txt
 ```
 
 > 🧩 **mamba-ssm & causal-conv1d** — these two require matching CUDA/PyTorch builds. Download the pre-built `.whl` files from [Google Drive](https://drive.google.com/file/d/15RLTgf1GYXip5YTdNScaKiTRd1xJWdmt/view?usp=sharing), then install them **in order** (causal-conv1d first, then mamba-ssm):
