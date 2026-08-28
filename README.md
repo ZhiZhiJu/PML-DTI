@@ -58,6 +58,8 @@ Download the pre-trained encoders into the `language/` folder:
 
 > ⚠️ **Note:** ESM-C (`esmc_300m`) requires the [`esm`](https://github.com/Biohub/esm) package and has dependency conflicts with the main environment — install it in a **separate conda environment** and run `predata/protein_pre_esmc.py` there. See [Biohub/esm](https://github.com/Biohub/esm) for installation instructions.
 
+> 💻 **Pre-trained model environment:** the dependencies for the three pre-trained encoders (SELFormer, SaProt, ESM-C) are provided in `requirements_pre.txt`.
+
 ---
 
 ## ⬇️ Downloads
