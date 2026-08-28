@@ -94,12 +94,12 @@ This produces `SEFLIES.csv` (SMILES + SELFIES).
 
 Run the following four scripts to generate the embeddings and molecular graphs required by training:
 
-| Script | Input | Output | Description |
-|---|---|---|---|
-| `predata/drug_pre_sefiles.py` | `SEFLIES.csv` | `selfies_embeddings.pth` | SELFormer embeddings of SELFIES |
-| `predata/protein_pre_saprot.py` | `Alpha_stru_seq.csv` | `protein_embeddings.pth` | SaProt embeddings of SA sequences |
-| `predata/protein_pre_esmc.py` | `Alpha_seq.csv` | `protein_embeddings_esmc.pth` | ESM-C embeddings of amino-acid sequences |
-| `predata/drug_graph_creat.py` | `SEFLIES.csv` | `davis_graphs_dict.pkl` | Molecular graphs of drugs |
+| Script | Input | Output |
+|---|---|---|
+| `predata/drug_pre_sefiles.py` | `SEFLIES.csv` | `selfies_embeddings.pth` |
+| `predata/protein_pre_saprot.py` | `Alpha_stru_seq.csv` | `protein_embeddings.pth` |
+| `predata/protein_pre_esmc.py` | `Alpha_seq.csv` | `protein_embeddings_esmc.pth` |
+| `predata/drug_graph_creat.py` | `SEFLIES.csv` | `davis_graphs_dict.pkl` |
 
 ```bash
 python predata/drug_pre_sefiles.py --dataset <DATASET>
