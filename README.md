@@ -66,9 +66,9 @@ Download the pre-trained encoders into the `language/` folder:
 
 | Resource | Description | Link |
 |---|---|---|
-| 📂 Datasets | Processed datasets (CSV files under `dataset/`) | [Google Drive](https://drive.google.com/file/d/1D3-Z-KfmPCWav6EewzusYbK2ExeJPRS8/view?usp=sharing) |
+| 📂 Datasets | Processed datasets (CSV files under `dataset/`) | [Google Drive](https://drive.google.com/file/d/1CUL1J6EsH6B7ugttnKYFmwL3dG8mrlhk/view?usp=sharing) |
 | 🧠 ESM-C weights | ESM-C (`esmc_300m`) model weights | [Google Drive](https://drive.google.com/file/d/1KmYUtf_ArJv0iqJsNDqTny7hxW_u2o6W/view?usp=sharing) |
-| 🏋️ Trained checkpoints | Model weights for each dataset | [Google Drive](https://drive.google.com/file/d/19X8QQUbgYdMxGjTZGR6tINUCyfiuLCUm/view?usp=sharing) |
+| 🏋️ Trained checkpoints | Model weights for each dataset | [Google Drive](https://drive.google.com/file/d/1oU9u61Kwwk8-sF-CErpmH1qAHsgM4AfH/view?usp=sharing) |
 
 ---
 

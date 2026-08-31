@@ -1,5 +1,5 @@
 # Biosnap / cluster
-batch_size: 32
+batch_size: 64
 num_heads: 4
 mm_output_sizes: [256]
 patience: 15
