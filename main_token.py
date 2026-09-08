@@ -530,7 +530,6 @@ def test(model, test_loader, device):
             final_out, preds, weights, kappas, self_entropy, cross_entropy, rel = model(prot, prot_esmc, drug, drug_graph, prot_mask, drug_mask, 'pdf_test',
                                                ret=True)
 
-            # final_out, preds, weights = model(prot, prot_esmc, drug, drug_graph, prot_mask, drug_mask, 'pdf_test')
 
             if fused_reliability is None:
                 fused_reliability = rel.cpu().numpy()
