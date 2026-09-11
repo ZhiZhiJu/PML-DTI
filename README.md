@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**Fine-grained Drug–Target Interaction Prediction via Token-level Fusion**
+**Probabilistic Multimodal Learning for Drug–Target Interaction Prediction**
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2.0-ee4c2c)](https://pytorch.org/)
