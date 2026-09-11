@@ -10,11 +10,6 @@
 
 </div>
 
-PML-DTI is a deep-learning framework for **Drug–Target Interaction (DTI)** prediction. It learns fine-grained interactions between drugs and protein targets via a **token-level fusion** module, combining:
-
-- 💊 **Drug inputs** — SELFIES (recommended) or SMILES, encoded by a molecular pre-trained language model (SELFormer), together with a molecular graph.
-- 🧬 **Protein inputs** — amino-acid sequences (encoded by ESM-C) and **structure-aware (SA)** sequences (encoded by SaProt).
-
 ---
 
 ## 📦 Requirements
