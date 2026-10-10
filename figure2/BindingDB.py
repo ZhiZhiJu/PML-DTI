@@ -7,7 +7,6 @@ plt.rcParams['font.sans-serif'] = ['Arial']
 metrics = ['AUROC', 'ACC', 'Specificity', 'Sensitivity', 'AUPRC']
 
 # ======================
-# ✅ 替换后的数据（按你的表）
 # 顺序：[AUROC, ACC, Specificity, Sensitivity, AUPRC]
 # ======================
 data = {
